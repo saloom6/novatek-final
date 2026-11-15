@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Novatek | مؤسسة ماسة الموارد التجارية</title>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--paper:#f4efe4;--card:#fffaf0;--ink:#16181d;--acc:#0e7a5f;--hl:#f4c542;--mut:#5d5f66;--line:#16181d22}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#15171c;--card:#1d2027;--ink:#f1ece0;--acc:#3ccf9f;--mut:#a4a6ad;--line:#f1ece026}}
+:root[data-theme="dark"]{--paper:#15171c;--card:#1d2027;--ink:#f1ece0;--acc:#3ccf9f;--mut:#a4a6ad;--line:#f1ece026}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans Arabic',Tahoma,Arial,sans-serif;line-height:1.8}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--paper);z-index:60}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:'El Messiri','IBM Plex Sans Arabic',Tahoma,sans-serif;font-weight:700}
+.w{max-width:1100px;margin:auto;padding:0 22px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--paper);border-bottom:2px solid var(--ink)}
+header .w{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;line-height:1.1}
+.logo svg{flex:none}.logo b{font:700 26px 'El Messiri',sans-serif;letter-spacing:.5px;display:block}.logo small{font-size:11px;color:var(--mut)}
+nav{display:flex;align-items:center;gap:22px;font-size:15px;white-space:nowrap}
+nav>a:hover{color:var(--acc)}
+.btn{display:inline-block;background:var(--ink);color:var(--paper);border:2px solid var(--ink);padding:10px 24px;font:inherit;font-weight:700;cursor:pointer;box-shadow:4px 4px 0 var(--acc);transition:.15s}
+.btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--acc)}
+.btn.o{background:transparent;color:var(--ink);box-shadow:none}.btn.o:hover{background:var(--hl);color:#16181d;transform:none}
+.tl{background:none;border:0;font:inherit;color:inherit;cursor:pointer;padding:0}.tl:hover{color:var(--acc)}
+.auth,.um{display:flex;align-items:center;gap:16px}.um{display:none}
+.av{width:30px;height:30px;border-radius:50%;background:var(--hl);color:#16181d;font-weight:700;display:grid;place-items:center}
+.menu{display:none;background:none;border:2px solid var(--ink);color:var(--ink);font-size:20px;padding:2px 11px;cursor:pointer}
+.hero{background-image:radial-gradient(var(--line) 1.2px,transparent 1.2px);background-size:24px 24px;border-bottom:2px solid var(--ink)}
+.hg{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding:60px 22px 52px}
+.kick{display:inline-block;font-weight:700;color:var(--acc);border:2px solid var(--acc);padding:2px 14px;margin:0 0 20px;font-size:14px}
+h1{font-size:clamp(34px,5.4vw,64px);line-height:1.25;margin:0 0 20px}
+mark{background:linear-gradient(transparent 58%,var(--hl) 58%);color:inherit;padding:0 4px}
+.hero p.lead{font-size:18px;color:var(--mut);max-width:520px;margin:0 0 28px}
+.acts{display:flex;gap:14px;flex-wrap:wrap}
+.facts{display:flex;gap:28px;margin-top:34px;font-size:14px;color:var(--mut);flex-wrap:wrap}.facts b{display:block;font:700 28px 'El Messiri',sans-serif;color:var(--ink);line-height:1.2}
+.art{position:relative;max-width:380px;margin:auto}.art>svg:first-child{width:100%;height:auto;display:block}
+.stamp{position:absolute;left:-6px;bottom:-14px;width:112px;animation:sp 22s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.mq{background:var(--ink);color:var(--paper);overflow:hidden;border-bottom:2px solid var(--ink);white-space:nowrap}
+.mq div{display:inline-block;padding:12px 0;animation:mq 28s linear infinite;font-weight:700}
+.mq span{margin:0 22px}.mq i{color:var(--hl);font-style:normal}
+@keyframes mq{to{transform:translateX(50%)}}
+section{padding:72px 0}
+h2{font-size:clamp(28px,4vw,44px);margin:0 0 8px;line-height:1.3}.sub{color:var(--mut);margin:0 0 36px;max-width:560px}
+.sl{list-style:none;margin:0;padding:0;border-bottom:2px solid var(--ink)}
+.sl li{display:grid;grid-template-columns:60px 1fr auto;gap:18px;align-items:center;padding:24px 8px;border-top:2px solid var(--ink);transition:.2s}
+.sl li:hover{background:var(--hl);color:#16181d;padding-inline:20px}
+.sl b{font:700 30px 'El Messiri',sans-serif;color:var(--acc)}.sl li:hover b{color:#16181d}
+.sl h3{margin:0;font-size:24px}.sl p{margin:2px 0 0;color:var(--mut);font-size:15px}.sl li:hover p{color:#3a3a2a}
+.pick{background:transparent;border:2px solid currentColor;color:inherit;padding:7px 18px;font:inherit;font-weight:700;cursor:pointer}.pick:hover{background:var(--ink);color:var(--paper)}
+.sl li:hover .pick{border-color:#16181d;color:#16181d}.sl li:hover .pick:hover{background:#16181d;color:var(--hl)}
+.pr{background:var(--card);border-block:2px solid var(--ink)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:32px}
+.steps b{font:700 76px/1 'El Messiri',sans-serif;color:transparent;-webkit-text-stroke:2px var(--ink)}
+.steps h3{margin:6px 0 2px;font-size:22px}.steps p{margin:0;color:var(--mut);font-size:15px}
+.bg2{display:grid;grid-template-columns:.8fr 1.2fr;gap:44px;align-items:start}
+.ct{margin-top:26px;font-size:15px}.ct div{padding:12px 0;border-top:1px solid var(--line)}.ct small{display:block;color:var(--mut)}.ct b{direction:ltr;display:inline-block}
+.book{background:var(--card);border:2px solid var(--ink);box-shadow:8px 8px 0 var(--acc);padding:28px}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:16px}
+label{display:block;font-size:14px;font-weight:700;margin-bottom:6px}
+input,select,textarea{width:100%;padding:11px 12px;border:2px solid var(--ink);border-radius:0;background:var(--paper);color:var(--ink);font:inherit}
+input:focus,select:focus,textarea:focus{outline:3px solid var(--hl);outline-offset:0}
+textarea{min-height:90px;resize:vertical}
+.seg{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:7px 14px;border:2px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;font:inherit;font-size:14px}
+.chip.on{background:var(--ink);color:var(--paper)}.chip:disabled{opacity:.3;cursor:not-allowed;text-decoration:line-through}
+.err{color:#c8372d;font-size:13px;min-height:20px;margin:6px 0}
+.ok{display:none;background:var(--hl);color:#16181d;border:2px solid #16181d;padding:18px;margin-top:18px}
+.ok h3{margin:0 0 4px}.ok .acts{margin-top:12px;gap:10px}.ok .btn{padding:7px 16px;font-size:14px;background:#16181d;color:var(--hl);box-shadow:none}
+.mi{border-top:1px solid var(--line);padding:8px 0;font-size:14px}
+footer{background:var(--ink);color:var(--paper);padding:48px 0 28px}
+footer .big{font:700 clamp(48px,11vw,120px)/1 'El Messiri',sans-serif;letter-spacing:1px;direction:ltr;text-align:center;margin-bottom:26px}
+footer .fl{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:14px;opacity:.85}footer a{text-decoration:underline}
+.mod{position:fixed;inset:0;background:rgba(10,12,16,.65);display:none;align-items:center;justify-content:center;z-index:70;padding:16px}.mod.on{display:flex}
+.box{background:var(--card);color:var(--ink);border:2px solid var(--ink);box-shadow:8px 8px 0 var(--acc);width:100%;max-width:400px;max-height:92vh;overflow:auto;padding:26px;position:relative}
+.box h3{margin:0 0 4px;font-size:26px}.box p.s{margin:0 0 14px;color:var(--mut);font-size:14px}.box label{margin-top:12px}
+.tabs{display:flex;border:2px solid var(--ink);margin-bottom:16px}.tabs button{flex:1;border:0;background:transparent;color:var(--ink);font:inherit;padding:8px;cursor:pointer}.tabs button.on{background:var(--ink);color:var(--paper);font-weight:700}
+.gbtn{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;background:#fff;color:#1f1f1f;border:2px solid var(--ink);padding:10px;font:inherit;font-weight:700;cursor:pointer}
+.or{text-align:center;color:var(--mut);font-size:13px;margin:12px 0 0}
+.x{position:absolute;top:8px;left:12px;background:none;border:0;color:var(--mut);font-size:26px;cursor:pointer}
+@media(max-width:800px){.hg,.bg2{grid-template-columns:1fr}.art{max-width:260px}.menu{display:block}
+nav{display:none;position:absolute;top:100%;right:0;left:0;background:var(--paper);border-bottom:2px solid var(--ink);flex-direction:column;align-items:flex-start;gap:12px;padding:16px 22px}nav.open{display:flex}
+.sl li{grid-template-columns:44px 1fr}.sl .pick{grid-column:2;justify-self:start}}
+</style>
+</head>
+<body>
+<header><div class="w">
+<a class="logo" href="#top"><svg width="38" height="34" viewBox="0 0 40 36"><path d="M10 3h20l8 11-18 20L2 14z" fill="#0e7a5f" stroke="#16181d" stroke-width="2.5" stroke-linejoin="round"/><path d="M2 14h36M10 3l6 11 4 20M30 3l-6 11-4 20" fill="none" stroke="#16181d" stroke-width="2"/></svg><span><b>Novatek</b><small>مؤسسة ماسة الموارد التجارية</small></span></a>
+<nav id="nv"><a href="#services">الخدمات</a><a href="#process">آلية العمل</a><a href="#booking">احجز موعدًا</a>
+<span class="auth" id="auth"><button type="button" class="tl" id="bLogin">دخول</button><button type="button" class="btn o" id="bSign" style="padding:6px 16px">حساب جديد</button></span>
+<span class="um" id="um"><span class="av" id="av"></span><span id="un"></span><button type="button" class="tl" id="bOut">خروج</button></span></nav>
+<button type="button" class="menu" id="mb" aria-label="القائمة">☰</button>
+</div></header>
+
+<div class="hero" id="top"><div class="w hg">
+<div>
+<span class="kick">مؤسسة ماسة الموارد التجارية</span>
+<h1>موقعك هو أول انطباع عن عملك، <mark>اجعله يستحق</mark></h1>
+<p class="lead">نصمّم المواقع ونبرمجها، ونتولّى الدعم البرمجي والتصميم الجرافيكي وتحليل البيانات وتجهيز الملفات، بتواصل مباشر معك ودون تعقيد.</p>
+<div class="acts"><a class="btn" href="#booking">احجز موعدك</a><a class="btn o" href="#services">شاهد الخدمات</a></div>
+<div class="facts"><div><b>0</b>مشروع منفّذ</div><div><b>0</b>عميل مشترك</div><div><b>24/7</b>دعم فني</div></div>
+</div>
+<div class="art">
+<svg viewBox="0 0 400 400" aria-hidden="true"><g transform="translate(16 16)"><path d="M110 120h180l60 80-150 140-150-140z" fill="#f4c542" stroke="#16181d" stroke-width="4" stroke-linejoin="round"/></g>
+<path d="M110 120h180l60 80-150 140-150-140z" fill="#0e7a5f" stroke="#16181d" stroke-width="4" stroke-linejoin="round"/>
+<path d="M110 120l40 80H50zM290 120l-40 80h100z" fill="#14a37f"/>
+<path d="M50 200h300M110 120l40 80 50 140M290 120l-40 80-50 140M200 120l-50 80M200 120l50 80" fill="none" stroke="#16181d" stroke-width="3" stroke-linejoin="round"/>
+<path d="M30 70c20-22 40 18 60 0s40 18 60 0" fill="none" stroke="#16181d" stroke-width="4" stroke-linecap="round"/>
+<path d="M330 60v32M314 76h32" stroke="#16181d" stroke-width="4" stroke-linecap="round"/><circle cx="60" cy="330" r="7" fill="#16181d"/></svg>
+<svg class="stamp" viewBox="0 0 130 130" aria-hidden="true"><circle cx="65" cy="65" r="62" fill="#f4c542" stroke="#16181d" stroke-width="3"/><defs><path id="c" d="M65 65m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs><text font-size="13" font-weight="700" letter-spacing="2.4" fill="#16181d"><textPath href="#c">NOVATEK ✦ NOVATEK ✦ NOVATEK ✦</textPath></text></svg>
+</div></div></div>
+
+<div class="mq"><div><span>تصميم وتطوير المواقع</span><i>✦</i><span>الدعم البرمجي</span><i>✦</i><span>تصميم جرافيك</span><i>✦</i><span>تحليل البيانات</span><i>✦</i><span>تجهيز الملفات</span><i>✦</i><span>تصميم وتطوير المواقع</span><i>✦</i><span>الدعم البرمجي</span><i>✦</i><span>تصميم جرافيك</span><i>✦</i><span>تحليل البيانات</span><i>✦</i><span>تجهيز الملفات</span><i>✦</i></div></div>
+
+<section id="services"><div class="w">
+<h2>ما نقدّمه</h2><p class="sub">خمس خدمات نشتغل عليها بأنفسنا، ونحدّد معك النطاق والسعر قبل أن نبدأ.</p>
+<ul class="sl">
+<li><b>01</b><div><h3>تصميم وتطوير المواقع</h3><p>مواقع سريعة ومتجاوبة، من الفكرة حتى الإطلاق.</p></div><button type="button" class="pick" data-s="تصميم وتطوير المواقع">احجز ←</button></li>
+<li><b>02</b><div><h3>الدعم البرمجي</h3><p>إصلاح الأخطاء، وتطوير الميزات، وربط الأنظمة، وصيانة دورية.</p></div><button type="button" class="pick" data-s="الدعم البرمجي">احجز ←</button></li>
+<li><b>03</b><div><h3>تصميم جرافيك وهوية بصرية</h3><p>شعارات وهويات وتصاميم للسوشال ميديا والعروض التقديمية.</p></div><button type="button" class="pick" data-s="التصميم الجرافيكي">احجز ←</button></li>
+<li><b>04</b><div><h3>تحليل البيانات</h3><p>تنظيف بياناتك وتحويلها إلى تقارير ولوحات معلومات تفهمها.</p></div><button type="button" class="pick" data-s="تحليل البيانات">احجز ←</button></li>
+<li><b>05</b><div><h3>تجهيز الملفات</h3><p>تنسيق مستندات Word وPDF وجداول Excel وعروض PowerPoint، وتنظيمها وأرشفتها.</p></div><button type="button" class="pick" data-s="تجهيز الملفات">احجز ←</button></li>
+</ul></div></section>
+
+<section class="pr" id="process"><div class="w">
+<h2>كيف نشتغل معك</h2><p class="sub">أربع خطوات واضحة، وتعرف في كل مرحلة أين وصلنا.</p>
+<div class="steps"><div><b>1</b><h3>تحجز موعدك</h3><p>تختار الخدمة والوقت المناسب لك.</p></div><div><b>2</b><h3>نسمع منك</h3><p>جلسة قصيرة نفهم فيها احتياجك ونحدد النطاق.</p></div><div><b>3</b><h3>عرض وتنفيذ</h3><p>عرض سعر وجدول زمني واضحان قبل البدء.</p></div><div><b>4</b><h3>تسليم ومتابعة</h3><p>نسلّمك العمل ونبقى قريبين بعد التسليم.</p></div></div>
+</div></section>
+
+<section id="booking"><div class="w bg2">
+<div><h2>خلّنا نبدأ</h2><p class="sub" style="margin-bottom:0">اختر الخدمة والموعد، ونتواصل معك خلال يوم عمل لتأكيد التفاصيل.</p>
+<div class="ct"><div><small>الجوال</small><b>+966 55 844 0030</b></div><div><small>البريد الإلكتروني</small><b>novatek.tech1@gmail.com</b></div></div></div>
+<div><div class="book">
+<div class="row"><div><label>نوع العميل</label><div class="seg" id="ctype"></div></div>
+<div><label>الخدمة المطلوبة</label><select id="svc"><option value="">اختر الخدمة…</option><option>تصميم وتطوير المواقع</option><option>الدعم البرمجي</option><option>التصميم الجرافيكي</option><option>تحليل البيانات</option><option>تجهيز الملفات</option></select></div></div>
+<div class="row"><div><label>التاريخ</label><input type="date" id="date"></div><div><label>الوقت</label><div class="seg" id="slots"></div></div></div>
+<div class="row"><div><label>الاسم</label><input id="name" autocomplete="name"></div><div id="cwrap" style="display:none"><label>اسم الشركة</label><input id="company"></div><div><label>رقم الجوال</label><input id="phone" type="tel" dir="ltr" placeholder="05xxxxxxxx" autocomplete="tel"></div><div><label>البريد الإلكتروني</label><input id="email" type="email" dir="ltr" autocomplete="email"></div></div>
+<label>تفاصيل الطلب</label><textarea id="msg" placeholder="اشرح باختصار ما تحتاجه…"></textarea>
+<div class="err" id="err"></div>
+<button type="button" class="btn" id="send">تأكيد الحجز</button>
+<div class="ok" id="ok"><h3>تم تسجيل طلبك — أرسله لإتمام الحجز</h3><div id="okt"></div><div class="acts" style="display:flex;flex-wrap:wrap"><a class="btn" id="wa" target="_blank" rel="noopener">إرسال عبر واتساب</a><a class="btn" id="ml" target="_blank" rel="noopener">إرسال بالبريد</a><button type="button" class="btn" id="cp">نسخ الطلب</button></div></div>
+</div><div id="mine" style="margin-top:22px"></div></div>
+</div></section>
+
+<div class="mod" id="mod"><div class="box"><button type="button" class="x" id="mx" aria-label="إغلاق">×</button><h3 id="mt">مرحبًا بعودتك</h3><p class="s">سجّل دخولك لمتابعة حجوزاتك بسهولة.</p>
+<div class="tabs"><button type="button" id="tL" class="on">تسجيل الدخول</button><button type="button" id="tS">حساب جديد</button></div>
+<button type="button" class="gbtn" id="gb"><svg width="18" height="18" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.9 2.4 30.4 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.9 6.1C12.4 13.6 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17.5z"/><path fill="#FBBC05" d="M10.5 28.7a14.5 14.5 0 010-9.4l-7.9-6.1a24 24 0 000 21.6l7.9-6.1z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.5-5.8c-2.1 1.4-4.9 2.3-8.4 2.3-6.3 0-11.6-4.1-13.5-9.8l-7.9 6.1C6.5 42.6 14.6 48 24 48z"/></svg>المتابعة عبر Google</button>
+<div class="or">أو بالبريد</div><div id="fn" style="display:none"><label>الاسم الكامل</label><input id="aN" autocomplete="name"></div>
+<label>البريد الإلكتروني</label><input id="aE" type="email" dir="ltr" autocomplete="email"><label>كلمة المرور</label><input id="aP" type="password" dir="ltr" autocomplete="current-password"><div class="err" id="ae"></div><button type="button" class="btn" id="as" style="width:100%">دخول</button></div></div>
+
+<footer><div class="w"><div class="big">Novatek</div><div class="fl"><span>© 2026 مؤسسة ماسة الموارد التجارية</span><a href="https://claude.ai/artifact/2peEfbmEJv6pX8FEb7objF" target="_blank" rel="noopener">شاهد إعلاننا</a><span dir="ltr">novatek.tech1@gmail.com · +966 55 844 0030</span></div></div></footer>
+
+<script>
+var $=function(i){return document.getElementById(i)},WA='966558440030',MAIL='novatek.tech1@gmail.com',KEY='f89f8c84-d40f-464a-8ebb-648a69968347',GID='',ct='فرد',slot='',am='login',TM=['09:00','10:30','12:00','14:00','16:00','18:00'];
+function ld(k,d){try{return JSON.parse(localStorage.getItem(k)||d)}catch(e){return JSON.parse(d)}}
+function sv(k,v){try{if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+function dT(){var b=$('ctype');b.innerHTML='';['فرد','شركة'].forEach(function(t){var x=document.createElement('button');x.type='button';x.className='chip'+(t===ct?' on':'');x.textContent=t;x.onclick=function(){ct=t;$('cwrap').style.display=t==='شركة'?'block':'none';dT()};b.appendChild(x)})}
+function dS(){var d=$('date').value,tk=ld('bk','[]').filter(function(x){return x.date===d}).map(function(x){return x.slot}),b=$('slots');b.innerHTML='';TM.forEach(function(t){var x=document.createElement('button');x.type='button';x.className='chip'+(t===slot?' on':'');x.textContent=t;x.disabled=tk.indexOf(t)>-1;x.onclick=function(){slot=t;dS()};b.appendChild(x)})}
+function dM(){var a=ld('bk','[]'),m=$('mine');m.innerHTML=a.length?'<h3 style="margin:0 0 6px">حجوزاتك على هذا الجهاز</h3>'+a.map(function(x){return '<div class="mi">'+x.ref+' — '+x.svc+' — '+x.date+' '+x.slot+'</div>'}).join(''):''}
+function sendAuto(ref,t){if(KEY==='YOUR_ACCESS_KEY')return;var f=function(){$('okt').textContent+=' تعذّر الإرسال التلقائي، استخدم الأزرار أدناه.'};try{fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({access_key:KEY,subject:'طلب حجز جديد '+ref+' - Novatek',from_name:'Novatek',message:t})}).then(function(r){return r.json()}).then(function(d){if(d.success)$('okt').textContent+=' ✅ وصل طلبك لفريقنا تلقائيًا.';else f()}).catch(f)}catch(e){f()}}
+var td=new Date().toISOString().slice(0,10);$('date').min=td;$('date').value=td;$('date').onchange=function(){slot='';dS()};
+$('send').onclick=function(){var v={svc:$('svc').value,date:$('date').value,name:$('name').value.trim(),phone:$('phone').value.trim(),email:$('email').value.trim(),msg:$('msg').value.trim(),company:$('company').value.trim()},e='';
+if(!v.svc)e='اختر الخدمة المطلوبة.';else if(!v.date||!slot)e='اختر التاريخ والوقت.';else if(!v.name)e='أدخل اسمك.';else if(ct==='شركة'&&!v.company)e='أدخل اسم الشركة.';else if(!/^[+0-9\s-]{9,15}$/.test(v.phone))e='رقم الجوال غير صحيح.';else if(v.email&&!/^\S+@\S+\.\S+$/.test(v.email))e='البريد الإلكتروني غير صحيح.';
+$('err').textContent=e;if(e)return;
+var ref='MR-'+Date.now().toString(36).toUpperCase().slice(-5),a=ld('bk','[]');v.slot=slot;v.ref=ref;a.push(v);sv('bk',a);
+var t='طلب حجز '+ref+'\nالعميل: '+v.name+(ct==='شركة'?' ('+v.company+')':'')+'\nالخدمة: '+v.svc+'\nالموعد: '+v.date+' '+slot+'\nالجوال: '+v.phone+(v.email?'\nالبريد: '+v.email:'')+'\nالتفاصيل: '+v.msg;
+$('okt').textContent='رقم الطلب '+ref+' — الموعد '+v.date+' الساعة '+slot+'. اضغط «إرسال عبر واتساب» ثم زر الإرسال داخل واتساب ليصلنا طلبك:';
+$('wa').href='https://wa.me/'+WA+'?text='+encodeURIComponent(t);$('ml').href='mailto:'+MAIL+'?subject='+encodeURIComponent('طلب حجز '+ref)+'&body='+encodeURIComponent(t);
+sendAuto(ref,t);window.lastT=t;$('ok').style.display='block';$('ok').scrollIntoView({behavior:'smooth',block:'center'});slot='';dS();dM()};
+$('cp').onclick=function(){var t=window.lastT||'',d=function(){$('cp').textContent='تم النسخ ✓'};function fb(){var x=document.createElement('textarea');x.value=t;document.body.appendChild(x);x.select();try{document.execCommand('copy');d()}catch(e){}document.body.removeChild(x)}try{navigator.clipboard.writeText(t).then(d,fb)}catch(e){fb()}};
+document.querySelectorAll('.pick').forEach(function(b){b.onclick=function(){$('svc').value=b.getAttribute('data-s');$('booking').scrollIntoView({behavior:'smooth'})}});
+var nv=$('nv');$('mb').onclick=function(){nv.classList.toggle('open')};nv.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nv.classList.remove('open')})});
+function hsh(p){if(!window.crypto||!crypto.subtle)return Promise.resolve('b'+btoa(unescape(encodeURIComponent(p))));return crypto.subtle.digest('SHA-256',new TextEncoder().encode('nv:'+p)).then(function(h){return Array.prototype.map.call(new Uint8Array(h),function(x){return('0'+x.toString(16)).slice(-2)}).join('')})}
+function applySess(){var u=ld('nv_sess','null');$('auth').style.display=u?'none':'flex';$('um').style.display=u?'flex':'none';if(u){$('un').textContent=u.name;$('av').textContent=(u.name||'?').charAt(0).toUpperCase();if(!$('name').value)$('name').value=u.name;if(!$('email').value)$('email').value=u.email}}
+function setMode(m){am=m;$('tL').className=m==='login'?'on':'';$('tS').className=m==='signup'?'on':'';$('fn').style.display=m==='signup'?'block':'none';$('as').textContent=m==='signup'?'إنشاء الحساب':'دخول';$('mt').textContent=m==='signup'?'أنشئ حسابك':'مرحبًا بعودتك';$('ae').textContent=''}
+function openMod(m){nv.classList.remove('open');setMode(m);$('mod').classList.add('on')}
+function closeMod(){$('mod').classList.remove('on')}
+function login(u){sv('nv_sess',u);closeMod();applySess()}
+$('bLogin').onclick=function(){openMod('login')};$('bSign').onclick=function(){openMod('signup')};$('bOut').onclick=function(){sv('nv_sess',null);applySess()};
+$('mx').onclick=closeMod;$('mod').onclick=function(e){if(e.target===this)closeMod()};$('tL').onclick=function(){setMode('login')};$('tS').onclick=function(){setMode('signup')};
+$('as').onclick=function(){var e=$('aE').value.trim().toLowerCase(),p=$('aP').value,n=$('aN').value.trim(),er='';if(!/^\S+@\S+\.\S+$/.test(e))er='أدخل بريدًا إلكترونيًا صحيحًا.';else if(p.length<6)er='كلمة المرور 6 أحرف على الأقل.';else if(am==='signup'&&!n)er='أدخل اسمك الكامل.';$('ae').textContent=er;if(er)return;
+hsh(p).then(function(h){var U=ld('nv_users','{}');if(am==='signup'){if(U[e]){$('ae').textContent='هذا البريد مسجّل مسبقًا، سجّل الدخول.';return}U[e]={name:n,h:h};sv('nv_users',U);login({name:n,email:e})}else{if(!U[e]){$('ae').textContent='لا يوجد حساب بهذا البريد، أنشئ حسابًا جديدًا.';return}if(U[e].h!==h){$('ae').textContent='كلمة المرور غير صحيحة.';return}login({name:U[e].name,email:e})}})};
+function gInit(){google.accounts.id.initialize({client_id:GID,callback:function(r){try{var b=r.credential.split('.')[1].replace(/-/g,'+').replace(/_/g,'/'),j=JSON.parse(decodeURIComponent(escape(atob(b))));login({name:j.name||j.email,email:j.email,g:1})}catch(x){$('ae').textContent='تعذّر تسجيل الدخول عبر Google.'}}});google.accounts.id.prompt()}
+$('gb').onclick=function(){if(!GID){$('ae').textContent='تسجيل الدخول عبر Google يحتاج ربط حساب Google (Client ID) عند نشر الموقع على نطاقك.';return}if(window.google&&google.accounts)return gInit();var s=document.createElement('script');s.src='https://accounts.google.com/gsi/client';s.onload=gInit;s.onerror=function(){$('ae').textContent='تعذّر تحميل خدمة Google.'};document.head.appendChild(s)};
+dT();dS();dM();applySess();
+</script>
+</body>
+</html>
